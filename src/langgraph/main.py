@@ -10,3 +10,4 @@ def load_langgraph_app():
     user_input = ui.loadui()
 
     user_message = st.chat_input("Enter your message:")
+
