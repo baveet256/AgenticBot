@@ -14,8 +14,10 @@ class GroqLLM:
 
             if groq_api_key == '':
                 st.error("Please enter the api key")
+
             llm = ChatGroq(api_key=groq_api_key,model=selected_groq_model)
 
         except Exception as e:
-            raise ValueError(f"Error Occured with Exception")
-        raise llm
+            raise ValueError(f"Error Occured with Exception: {e}")
+        
+        return llm
