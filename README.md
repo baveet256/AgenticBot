@@ -1,1 +1,1 @@
-END to END Bot
+Agentic AI Chatbot with Tools, MCP
